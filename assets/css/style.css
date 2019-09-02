@@ -1,0 +1,83 @@
+.login {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 350px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.btn-personalizado{
+  width: 80px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+.btn-personalizado2{
+  width: 150px;
+}
+.imgLanche{
+  height:200px;
+  padding:3px;
+}
+.imgLanche img{
+  height:100%;
+
+}
+.corpoLanche{
+  min-height:120px;
+}
+.titleLanche{
+  min-height:50px;
+}
+.imgLanche-modal{
+  height:110px;
+}
+.imgLanche-modal img{
+  height:100%;
+}
+.titleLanche-modal{
+    min-height:50px;
+    padding:0px;
+}
+.corpoLanche-modal{
+    min-height:140px;
+}
+.espace{
+  margin-bottom:10px;
+}
+.imgProduto{
+  max-height: 100px;
+  max-width: 100px;
+}
